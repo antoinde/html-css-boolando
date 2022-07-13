@@ -9,6 +9,7 @@
 /*UTILITYS*/
 .flex{ display: flex;}
 /*/UTILITYS ###################################*/
+body{}
 
 /*HEADER*/
 header{
@@ -16,6 +17,11 @@ header{
     width: 100%;
     padding: 0 10%;
     background-color: orange;
+    color: white;
+
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    
     border-bottom: 2px solid grey;
     position: fixed;
     display: flex;
