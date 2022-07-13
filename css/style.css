@@ -9,7 +9,10 @@
 /*UTILITYS*/
 .flex{ display: flex;}
 /*/UTILITYS ###################################*/
-body{}
+body{
+    background-color: yellowgreen;
+}
+
 
 /*HEADER*/
 header{
@@ -27,8 +30,14 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 header .Categoria, header .Info{
     align-items: center;
+}
+
+.Logo img{
+    height: 80%;
+    margin-top: 6px;
 }
 header .Categoria div, header .Info div{
     /* di cui eliminerò il selettore header .Info div*/
@@ -41,25 +50,56 @@ header .Categoria div, header .Info div{
 main{
     padding: 0 10%;
     padding-top: 50px;
-    background-color: yellowgreen;
 }
 section{
     margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
     flex-wrap: wrap;
-    justify-content: center;
 }
-.card{   
-    background-color: red; 
-    margin: 20px 10px;
-    flex-basis: calc(100% / 3 - 10px);
-}
-
-.card_description, .card{
+.card{
+    height: 300px;
+    width: calc(100% / 3 - 20px);
+    border: 3px solid black;
+    margin: 10px;
+    background-color: brown;
     flex-direction: column;
 }
-main section div img{   max-width: 100%;}
+.img_container{
+    background-color: grey;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.img_container img{
+    max-width: 100%;
+}
+.text_container{
+    background-color: green;
+    border: 2px solid red;
+    flex-basis: 20%;
+}
 
 /*/MAIN ###################################*/
 
 /*FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot_sx{
+    flex-basis: 400px;
+}
+.foot_sx h3{
+    
+}
+.foot_sx > *{
+}
+.foot_dx{
+    
+}
 /*/FOOTER ###################################*/
