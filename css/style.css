@@ -21,7 +21,7 @@ header{
 
     font-family: 'Baloo 2', sans-serif;
     font-weight: 600;
-    
+
     border-bottom: 2px solid grey;
     position: fixed;
     display: flex;
@@ -38,6 +38,27 @@ header .Categoria div, header .Info div{
 /*/HEADER ###################################*/
 
 /*MAIN*/
+main{
+    padding: 0 10%;
+    padding-top: 50px;
+    background-color: yellowgreen;
+}
+section{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{   
+    background-color: red; 
+    margin: 20px 10px;
+    flex-basis: calc(100% / 3 - 10px);
+}
+
+.card_description, .card{
+    flex-direction: column;
+}
+main section div img{   max-width: 100%;}
+
 /*/MAIN ###################################*/
 
 /*FOOTER*/
