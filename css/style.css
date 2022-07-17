@@ -31,6 +31,8 @@ header{
     position: fixed;
     display: flex;
     justify-content: space-between;
+
+    z-index: 2;
 }
 
 header .Categoria, header .Info{
@@ -102,6 +104,8 @@ section{
     text-align: center;
     line-height: 20px;
     background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .text_container{
     border: 2px solid rgb(0, 0, 0);
